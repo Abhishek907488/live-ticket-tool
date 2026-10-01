@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PC Services | Rent • Sales • Service • Solutions</title>
+<meta name="description" content="PC Services - Printer Rental, Computer Rental, New & Refurbished PCs, Hardware, Software, Toner, Networking and IT Support.">
+<style>
+:root{--navy:#071d36;--blue:#087ff5;--cyan:#10a8ff;--text:#15283d;--muted:#64748b;--bg:#f6faff;--white:#fff;--line:#e3edf7}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#fff}
+a{text-decoration:none;color:inherit}.top{height:28px;background:var(--navy);color:#fff;font-size:11px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;opacity:.98}
+.top span{margin-right:20px}.nav{height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 7%;background:#fff;position:sticky;top:0;z-index:20;box-shadow:0 2px 15px #071d3612}
+.logo{height:55px;width:auto;object-fit:contain}.links{display:flex;gap:34px;font-size:14px;font-weight:700}.links a:hover{color:var(--blue)}.quote{background:linear-gradient(135deg,var(--blue),#15a6ff);color:#fff;padding:12px 24px;border-radius:28px;font-weight:700;box-shadow:0 8px 22px #087ff52c}
+.hero{min-height:440px;background:linear-gradient(90deg,#061a31f4,#061a3190 55%,#061a3135),url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1800&q=80') center/cover;display:flex;align-items:center;padding:55px 8%;color:#fff}
+.hero .copy{max-width:620px}.eyebrow{font-size:13px;font-weight:800;letter-spacing:1.5px}.hero h1{font-size:48px;line-height:1.06;margin:14px 0}.hero h1 b{color:#12a7ff}.hero p{font-size:15px;line-height:1.8;color:#e8f3ff}.actions{display:flex;gap:15px;margin-top:25px}.btn{padding:13px 24px;border-radius:26px;font-weight:700;background:var(--blue);color:#fff}.btn.alt{background:transparent;border:1px solid #fff}
+.quick{display:grid;grid-template-columns:repeat(7,1fr);gap:14px;padding:18px 7%;background:#fff;box-shadow:0 5px 25px #071d3610;position:relative;z-index:3}.quick .q{border:1px solid var(--line);border-radius:12px;padding:17px 8px;text-align:center;font-size:12px;font-weight:700;background:#fff}.ico{font-size:25px;color:var(--blue);margin-bottom:8px}
+.section{padding:65px 7%}.light{background:var(--bg)}.about{display:grid;grid-template-columns:1fr 1.25fr .9fr;gap:40px;align-items:center}.about img{width:100%;height:260px;object-fit:cover;border-radius:14px}.label{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:1px}.section h2{font-size:32px;margin:8px 0 15px}.section p{color:var(--muted);line-height:1.75;font-size:14px}.stats{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}.stat{padding:13px 8px;border-bottom:1px solid var(--line)}.stat:last-child{border:0}.stat strong{font-size:22px}.stat small{display:block;color:var(--muted);margin-top:3px}
+.services-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:22px}.services{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:#fff;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 15px 30px #071d3612}.card img{width:100%;height:125px;object-fit:cover}.card .body{padding:15px}.card h3{font-size:14px;margin:0 0 7px}.card p{font-size:12px;margin:0 0 10px;line-height:1.5}.more{font-size:12px;color:var(--blue);font-weight:800}
+.contact{display:grid;grid-template-columns:1.25fr .75fr;gap:30px}.formbox{background:var(--navy);padding:28px;border-radius:14px;color:#fff}.formbox h2{margin-top:0}.form{display:grid;gap:10px}.form input,.form select,.form textarea{width:100%;padding:13px;border:0;border-radius:7px;font:inherit}.form textarea{height:90px;resize:none}.form button{border:0;background:var(--blue);color:#fff;padding:13px;border-radius:7px;font-weight:800}.info{padding:20px}.info h3{margin-top:0}.info p{margin:10px 0}.footer{background:#061a31;color:#cbd8e7;padding:40px 7% 15px}.footgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:35px}.footer h4{color:#fff;margin-top:0}.footer a{display:block;font-size:12px;margin:10px 0;color:#b8c8da}.copy{border-top:1px solid #ffffff1a;margin-top:30px;padding-top:15px;text-align:center;font-size:11px}.wa{position:fixed;right:20px;bottom:20px;width:50px;height:50px;border-radius:50%;display:grid;place-items:center;background:#20c86b;color:#fff;font-size:25px;box-shadow:0 8px 25px #0003;z-index:30}
+@media(max-width:950px){.links{display:none}.quick{grid-template-columns:repeat(3,1fr)}.about,.contact{grid-template-columns:1fr}.services{grid-template-columns:repeat(2,1fr)}.footgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.top{display:none}.nav{padding:8px 5%;height:65px}.logo{height:48px}.hero{padding:45px 6%;min-height:510px}.hero h1{font-size:37px}.quick{grid-template-columns:repeat(2,1fr);padding:15px 5%}.section{padding:45px 5%}.services{grid-template-columns:1fr}.footgrid{grid-template-columns:1fr}.quote{padding:10px 15px}}
+</style>
+</head>
+<body>
+<div class="top"><div><span>☎ +91 9977607027</span><span>✉ Ranveer@pcservicess.com</span><span>📍 EM-325 B Indus Town II Pithampur 454775, Madhay pradesh, India</span></div><div>Follow Us:　f　in　▶</div></div>
+<nav class="nav">
+<img class="logo" src="logo.png" alt="PC Services">
+<div class="links"><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#products">Products</a><a href="#rental">Rental</a><a href="#contact">Contact</a></div>
+<a class="quote" href="#contact">Get a Quote ↗</a>
+</nav>
+
+<section class="hero" id="home"><div class="copy">
+<div class="eyebrow">YOUR TRUSTED IT PARTNER</div>
+<h1>Complete IT Solutions<br>for <b>Your Business</b></h1>
+<p>Printer Rental | Computer Rental | Hardware & Software Sales<br>Refurbished & New PCs | Toner & Accessories | All Type of IT Solutions</p>
+<div class="actions"><a class="btn" href="#services">Explore Our Services →</a><a class="btn alt" href="#contact">Contact Us</a></div>
+</div></section>
+
+<div class="quick">
+<div class="q"><div class="ico">🖨️</div>Printer Rental<br><small>Flexible Rental Plans</small></div>
+<div class="q"><div class="ico">💻</div>PC Rental<br><small>Business & Events</small></div>
+<div class="q"><div class="ico">🖥️</div>New & Refurbished PCs<br><small>Best Value</small></div>
+<div class="q"><div class="ico">⚙️</div>Hardware & Software<br><small>All Brands</small></div>
+<div class="q"><div class="ico">💧</div>Toner & Cartridges<br><small>Original & Compatible</small></div>
+<div class="q"><div class="ico">🛠️</div>AMC & Support<br><small>IT Maintenance</small></div>
+<div class="q"><div class="ico">🛡️</div>IT Solutions<br><small>Network & Security</small></div>
+</div>
+
+<section class="section light" id="about"><div class="about">
+<img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80" alt="PC Services office">
+<div><div class="label">ABOUT US</div><h2>We Provide Smart IT Solutions for a Smarter Tomorrow</h2><p>PC Services is your trusted IT partner for printer rental, computer rental, hardware and software sales, new and refurbished PCs, networking, CCTV, toner and complete IT support. We help businesses stay productive with reliable, cost-effective and practical solutions.</p><a class="btn" href="#contact">Know More →</a></div>
+<div class="stats"><div class="stat"><strong>25+</strong><small>Years of Experience</small></div><div class="stat"><strong>100+</strong><small>Happy Customers</small></div><div class="stat"><strong>1000+</strong><small>Products & Solutions</small></div><div class="stat"><strong>24/7</strong><small>Support Available</small></div></div>
+</div></section>
+
+<section class="section" id="services"><div class="services-head"><div><div class="label">OUR SERVICES</div><h2>What We Offer</h2></div><a class="more" href="#contact">View All Services →</a></div>
+<div class="services">
+<div class="card"><img src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=600&q=80"><div class="body"><h3>Printer Rental</h3><p>Short & long-term printer rental for offices and projects.</p><a class="more" href="#contact">Read More →</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80"><div class="body"><h3>Computer Rental</h3><p>Desktop and laptop rental for business, events and projects.</p><a class="more" href="#contact">Read More →</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=600&q=80"><div class="body"><h3>Hardware & Software</h3><p>Genuine hardware, software, RAM, SSD, HDD and accessories.</p><a class="more" href="#contact">Read More →</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?auto=format&fit=crop&w=600&q=80"><div class="body"><h3>Refurbished PCs</h3><p>Quality-tested refurbished computers at practical prices.</p><a class="more" href="#contact">Read More →</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80"><div class="body"><h3>New PCs & Laptops</h3><p>Latest models and business systems from leading brands.</p><a class="more" href="#contact">Read More →</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&w=600&q=80"><div class="body"><h3>Toner & Cartridges</h3><p>Original and compatible toner, cartridges and consumables.</p><a class="more" href="#contact">Read More →</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80"><div class="body"><h3>Networking & CCTV</h3><p>Secure networking, CCTV and infrastructure solutions.</p><a class="more" href="#contact">Read More →</a></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"><div class="body"><h3>AMC & IT Support</h3><p>Annual maintenance and reliable ongoing IT support.</p><a class="more" href="#contact">Read More →</a></div></div>
+</div></section>
+
+<section class="section light" id="contact"><div class="contact">
+<div><div class="label">CONTACT US</div><h2>Tell Us What You Need</h2><p>Whether you need a printer on rent, a complete computer setup, hardware, software, toner or IT support, send us your requirement and our team will get back to you.</p><div class="info"><h3>PC Services</h3><p>📞 +91 9977607027 Ranveer@pcservicessicess.com</p><p>📍 EM-325 B Indus Town II Pithampur 454775, Madhay pradesh, India</p><p>🕘 Mon – Sat | 9:00 AM – 7:00 PM</p></div></div>
+<div class="formbox"><h2>Get a Free Quote</h2><p style="color:#cbd8e7">Tell us what you need and we'll get back to you.</p><form class="form" onsubmit="event.preventDefault();alert('Thank you! We will contact you shortly.');"><input placeholder="Your Name" required><input type="email" placeholder="Your Email" required><input placeholder="Phone Number" required><select><option>Select Service</option><option>Printer Rental</option><option>Computer Rental</option><option>New PC / Laptop</option><option>Refurbished PC</option><option>Hardware / Software</option><option>Toner / Cartridge</option><option>Networking / CCTV</option><option>AMC / IT Support</option></select><textarea placeholder="Your Message"></textarea><button>Send Message →</button></form></div>
+</div></section>
+
+<footer class="footer"><div class="footgrid"><div><img class="logo" src="assets/logo.png" alt="PC Services"><p style="font-size:12px">Your IT Partner for a Smarter Tomorrow.</p></div><div><h4>Quick Links</h4><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#contact">Contact Us</a></div><div><h4>Our Services</h4><a>Printer Rental</a><a>PC Rental</a><a>Hardware & Software</a><a>Networking & CCTV</a></div><div><h4>Stay Connected</h4><a>Facebook</a><a>LinkedIn</a><a>WhatsApp</a><a>info@pcservicess.com</a></div></div><div class="copy">© 2026 PC Services. All Rights Reserved.</div></footer>
+<a class="wa" href="https://wa.me/" aria-label="WhatsApp">◔</a>
+</body></html>
